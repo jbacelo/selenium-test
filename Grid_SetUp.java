@@ -12,7 +12,7 @@ public class Grid_SetUp {
 
  		String URL = "https://www.DemoQA.com";
  		String Node = "http://selenium-hub:4444/grid/console";
- 		DesiredCapabilities cap = DesiredCapabilities.firefox();
+ 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 
  		driver = new RemoteWebDriver(new URL(Node), cap);
 
