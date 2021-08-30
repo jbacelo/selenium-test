@@ -11,7 +11,7 @@ public class Grid_SetUp {
 	public static void main(String[]  args) throws MalformedURLException, InterruptedException{
 
  		String URL = "https://www.DemoQA.com";
- 		String Node = "https://192.168.1.164:4444/wd/hub";
+ 		String Node = "http://selenium-hub:4444/grid/console";
  		DesiredCapabilities cap = DesiredCapabilities.firefox();
 
  		driver = new RemoteWebDriver(new URL(Node), cap);
